@@ -5,7 +5,7 @@ import {
   SortableContext,
   rectSortingStrategy,
 } from "@dnd-kit/sortable";
-import Bin from "./Bin";
+import Bin from "@/components/TaskThree/Bin";
 
 export default function TaskThree() {
   const [createBinDiscs, setCreateBinDiscs] = useState([]);

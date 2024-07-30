@@ -1,5 +1,5 @@
 import React from "react";
-import Disc from "./Disc";
+import Disc from "@/components/TaskThree/Disc";
 import { useDroppable } from "@dnd-kit/core";
 
 const Bin = ({ id, discs, color, onAddDisc, onRemoveDisc }) => {
