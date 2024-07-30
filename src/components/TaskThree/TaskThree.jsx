@@ -31,7 +31,7 @@ export default function TaskThree() {
 
   return (
     <DndContext collisionDetection={closestCenter} onDragEnd={handleDragEnd}>
-      <div className="main">
+      <div className="main w-full">
         <SortableContext
           items={
             createBinDiscs &&

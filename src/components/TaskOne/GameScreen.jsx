@@ -7,9 +7,9 @@ import ResultScreen from "@/components/TaskOne//ResultScreen";
 import { TextH2 } from "@/components/shared/TextH2";
 
 export default function GameScreen() {
-  const setStep = useGlobalState((state) => state.setStep); // import the setStep from the zustand store
-  const score = useGlobalState((state) => state.score); // import the score from the zustand store
-  const setScore = useGlobalState((state) => state.setScore); // import the setScore from the zustand store
+  const setStep = useGlobalState((state) => state.setStep);
+  const score = useGlobalState((state) => state.score);
+  const setScore = useGlobalState((state) => state.setScore);
 
   const [dogImages, setDogImages] = useState();
   const [dogBreed, setDogBreed] = useState();
@@ -39,7 +39,6 @@ export default function GameScreen() {
     <div className="flex justify-center items-center w-screen">
       <div className="flex justify-center items-center bg-violet-100 min-h-[calc(100dvh-20px)]  w-5/6">
         <Card className="p-4 w-[500px]">
-          <TextH2 className="text-center">Dog Breed Quiz</TextH2>
           <div className="image-container">
             <img id="quiz-image" src={dogImages} alt="Dog Image" />
           </div>
