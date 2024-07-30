@@ -29,7 +29,7 @@ export const TaskTwo = () => {
           fill="none"
           stroke="url(#gradient)"
           strokeWidth="4"
-          transform={`rotate(${angle - 90}, 100, 100)`} // Adjust rotation around the center
+          transform={`rotate(${angle - 90}, 100, 100)`}
         />
 
         <line
